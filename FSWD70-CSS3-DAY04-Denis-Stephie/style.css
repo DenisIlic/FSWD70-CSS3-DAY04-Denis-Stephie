@@ -3,6 +3,43 @@
 #Fabian a {
   font-family: "Yeon Sung", cursive; }
 
+/*#Steph:hover: $hover;*/
+h1 {
+  color: linear-gradient(red, yellow, green); }
+
+div {
+  background: linear-gradient(red, yellow, green);
+  font-family: "Yeon Sung", cursive;
+  font-size: 2em;
+  width: 50%;
+  height: 2%;
+  transition: width 5s, height 10s, transform 5s;
+  transition: width 5s, height 10s, transform 5s;
+  display: flex;
+  align-content: center; }
+
+body #Steph {
+  font-weight: lighter; }
+
+a {
+  color: black; }
+
+#Steph:hover {
+  background: #264348;
+  width: 250px;
+  height: 250px;
+  transform: rotateX(90deg);
+  transform: rotate 90deg; }
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  /*text-align: center;*/ }
+
+.rotate {
+  transition: all 1s ease-in-out; }
+
 #Fabian1 {
   font-weight: bold; }
 
@@ -12,8 +49,7 @@
   font-style: italic; }
 
 #Fabian31 {
-  transition: 6s;
-  background: gray; }
+  transition: 6s; }
 
 #Fabian31:hover {
   transform: rotate(-360deg);

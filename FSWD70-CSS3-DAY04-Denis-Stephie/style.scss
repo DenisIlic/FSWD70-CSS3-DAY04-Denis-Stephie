@@ -9,11 +9,65 @@ $transform: rotate(-360deg);
 $hover: #F19DBF;
 $tdeco: underline;
 $font-style: italic;
+$color: linear-gradient(red, yellow, green);
+$fsize: 2em;
+$height: 2%;
+$fweight: lighter;
+$bckground: #264348;
+$transformer: rotate (90deg);
+$trans: width 5s, height 10s, transform 5s;
+$ftc: black;
+$width: 50%;
 
 /*Sass Code */
 
 #Fabian a {
 	font-family: $font-fam;
+}
+
+/*#Steph:hover: $hover;*/
+h1 {
+	color: $color;
+}
+div {
+	background: $color;
+	font-family: $font-fam;	
+	font-size:  $fsize;
+	width:  $width;
+	height: $height;
+	transition: $trans;
+	transition: $trans;
+	display: flex;
+	align-content: center;
+}
+
+body #Steph {
+	font-weight: $fweight;
+}
+
+a {
+	color: $ftc;
+} 
+
+#Steph:hover {
+	background: $bckground;
+	width: 250px;
+	height: 250px;
+	transform: rotateX(90deg);
+	transform: $transformer;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	/*text-align: center;*/
+}
+
+
+.rotate {
+	transition: all 1s ease-in-out;
+
 }
 
 #Fabian1{
@@ -29,7 +83,6 @@ $font-style: italic;
 
 #Fabian31{
 	transition: $transition;
-	background: gray;
 }
 #Fabian31:hover{
 	transform: $transform;
