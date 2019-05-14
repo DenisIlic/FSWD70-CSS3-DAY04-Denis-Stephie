@@ -1,10 +1,48 @@
 /*Sass variable */
 
 $font-fam: 'Yeon Sung', cursive;
+$font-weight: bold;
+$font-size: 100px;
+$transition: 6s;
+$background: none;
+$transform: rotate(-360deg);
+$hover: #F19DBF;
+$tdeco: underline;
+$font-style: italic;
 
-a {
+/*Sass Code */
+
+#Fabian a {
 	font-family: $font-fam;
 }
+
+#Fabian1{
+	font-weight: $font-weight;
+	
+}
+
+#Fabian1:hover{
+	color: $hover;
+	text-decoration: $tdeco;
+	font-style: $font-style;
+}
+
+#Fabian31{
+	transition: $transition;
+	background: gray;
+}
+#Fabian31:hover{
+	transform: $transform;
+	background: $background;
+	transition: $transition;
+}
+
+#Fabian21:hover{
+	font-size: $font-size;
+	transition: $transition;
+}
+
+	
 
 
 

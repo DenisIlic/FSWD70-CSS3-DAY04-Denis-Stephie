@@ -1,5 +1,27 @@
 /*Sass variable */
-a {
+/*Sass Code */
+#Fabian a {
   font-family: "Yeon Sung", cursive; }
+
+#Fabian1 {
+  font-weight: bold; }
+
+#Fabian1:hover {
+  color: #F19DBF;
+  text-decoration: underline;
+  font-style: italic; }
+
+#Fabian31 {
+  transition: 6s;
+  background: gray; }
+
+#Fabian31:hover {
+  transform: rotate(-360deg);
+  background: none;
+  transition: 6s; }
+
+#Fabian21:hover {
+  font-size: 100px;
+  transition: 6s; }
 
 /*# sourceMappingURL=style.css.map */
