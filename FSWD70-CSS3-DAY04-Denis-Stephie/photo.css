@@ -1,12 +1,27 @@
+@media screen and (max-width: 1200px){
 
-@media screen and (max-width: 1400px) {
-    body {
-        background-color: gray;
-        margin: 0 auto;
-
-    } 
-    .img1{
-		width: 500px;
-		height: 450px;
-    }	
+div.column{
+	width:  20%;
+	border:  5px solid black;
+	display:  inline-block;	
 }
+
+}
+@media screen and (max-width: 1000px){
+
+
+.column{
+	display: flex;
+	align-items: center;
+}
+}
+@media screen and (max-width: 900px){
+
+.column2{
+	display: flex;
+	align-items: center;
+}
+
+}
+
+
