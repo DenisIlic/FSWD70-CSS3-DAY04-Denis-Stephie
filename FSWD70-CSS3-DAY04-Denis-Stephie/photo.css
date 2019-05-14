@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 body {
 	margin: 0 auto;
@@ -20,8 +21,21 @@ body {
 img {
 	width: 250px;
 	height: 250px;
+=======
+@media screen and (max-width: 1200px){
+
+div.column{
+	width:  20%;
+	border:  5px solid black;
+	display:  inline-block;	
 }
 
+>>>>>>> 34d1a7ea093da66e326dfebcf055fb6343e185ba
+}
+@media screen and (max-width: 1000px){
+
+
+<<<<<<< HEAD
 /* Portrait */ /*IPhone*/
 @media screen 
 	and (min-width:480px) 
@@ -39,5 +53,23 @@ img {
 	display:  flex ;
 	flex-wrap: wrap;
 }
+=======
+.column{
+	display: flex;
+	align-items: center;
+>>>>>>> 34d1a7ea093da66e326dfebcf055fb6343e185ba
+}
+}
+@media screen and (max-width: 900px){
+
+<<<<<<< HEAD
+=======
+.column2{
+	display: flex;
+	align-items: center;
 }
 
+}
+
+
+>>>>>>> 34d1a7ea093da66e326dfebcf055fb6343e185ba
