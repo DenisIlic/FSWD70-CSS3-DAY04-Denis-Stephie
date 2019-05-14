@@ -1,9 +1,60 @@
 /*Sass variable */
 
 $font-fam: 'Yeon Sung', cursive;
+$color: linear-gradient(red, yellow, green);
+$fsize: 2em;
+$height: 2%;
+$fweight: lighter;
+$bckground: #264348;
+$transformer: rotate (90deg);
+$trans: width 5s, height 10s, transform 5s;
+$ftc: black;
+$width: 50%;
+
+
+/*#Steph:hover: $hover;*/
+h1 {
+	color: $color;
+}
+div {
+	background: $color;
+	font-family: $font-fam;	
+	font-size:  $fsize;
+	width:  $width;
+	height: $height;
+	-webkit-transition: $trans;
+	transition: $trans;
+	display: flex;
+	align-content: center;
+}
+
+body #Steph {
+	font-weight: $fweight;
+}
 
 a {
-	font-family: $font-fam;
+	color: $ftc;
+} 
+
+#Steph:hover {
+	background: $bckground;
+	width: 250px;
+	height: 250px;
+	-webkit-transform: rotateX(90deg);
+	transform: $transformer;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	/*text-align: center;*/
+}
+
+
+.rotate {
+	-webkit-transition: all 1s ease-in-out;
+
 }
 
 
