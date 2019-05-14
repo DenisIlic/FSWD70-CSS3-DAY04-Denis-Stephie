@@ -1,3 +1,12 @@
-.wrapper {
-	width: 100px;
+
+@media screen and (max-width: 1400px) {
+    body {
+        background-color: gray;
+        margin: 0 auto;
+
+    } 
+    .img1{
+		width: 500px;
+		height: 450px;
+    }	
 }
